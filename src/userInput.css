@@ -1,0 +1,71 @@
+/* UserInput.css */
+
+/* General Section Styling */
+.user-input-section {
+    margin-top: 40px;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input Section Styling */
+  .input-section {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #4a4a6a;
+  }
+  
+  /* Text Input Styling */
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Button Styling */
+  .button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6e60c3;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #5a4ea0;
+    transform: translateY(-2px);
+  }
+  
+  .listening-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #fff;
+    font-size: 16px;
+    cursor: not-allowed;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Speech Text Styling */
+  .speech-text {
+    margin-top: 10px;
+    color: #4a4a6a;
+    font-style: italic;
+  }
+  

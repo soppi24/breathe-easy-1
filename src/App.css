@@ -1,0 +1,74 @@
+/* App.css */
+
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Landing Page Styles */
+.landing-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/background.png"); /* Adjust this path if your background is elsewhere */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #333;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px 40px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #4a4a6a;
+  margin-bottom: 20px;
+}
+
+.get-started-button {
+  background-color: #6e60c3;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.get-started-button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.features {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.features h3 {
+  margin-bottom: 10px;
+  color: #4a4a6a;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features li {
+  margin: 5px 0;
+  color: #4a4a6a;
+}
